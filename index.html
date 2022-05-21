@@ -6,19 +6,53 @@
 	<title>1° Mês no GitHub</title>
 	<link rel="icon" type="imagem/gif" href="./icon/iconLunatico.gif" />
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	
 </head>
 <body>
 
+	<header>
+		<h1 class="title">1° Mês no GitHub</h1>
+		<ul>
+			<li>
+				<a href="https://github.com/16b8f3?tab=repositories" target="_blank">My Repositories</a>
+			</li>
+		</ul>
+	</header>
+
 	<section>
-		<h1>Um mês passa rapido</h1>
+		<h1>Um mês passa rápido</h1>
 
-		<p>Faz um mês que estou no GitHub (o tempo passou bem rapido), já aprendi um pouco como mexer no GitHub, ainda não fiz nenhum projeto porque não pensei em nada legal o bastante para ser "O 1° Projeto", mas talvez vai ser um jogo de escolhas estilo RPG Mude, sem duelo que o objetivo é achar a saída da floresta. Minha cor favorita é Zima Blue(#16b8f3) e tento colocar ela em tudo o que eu crio, comecei a gostar da cor assistindo o episodio 14 da 1° Temporada de Love, Death & Robots, a historia contada no episodio é bem legal e gosto da mensagem que ele passa. </p>
+		<p class="texto">"Faz um mês que estou no GitHub (o tempo passou bem rapido), já aprendi um pouco como mexer no GitHub, ainda não fiz nenhum projeto porque não pensei em nada legal o bastante para ser "O 1° Projeto", mas talvez vai ser um jogo de escolhas estilo RPG Mude, sem duelo que o objetivo é achar a saída da floresta. Minha cor favorita é Zima Blue(#16b8f3) e tento colocar ela em tudo o que eu crio, comecei a gostar da cor assistindo o episodio 14 da 1° Temporada de Love, Death & Robots, a historia contada no episodio é bem legal e gosto da mensagem que ele passa."</p>
 
-		<button class="btn">Não aperte nesse botão</button>
+		<button class="btn">Contagem regressiva para aniversário</button>
 
 		<div class="popup">
-			<h2>Parabens</h2>
-			<b class="close">x</b>
+			<b class="close">X</b>
+			<img src="./imagem/SummonerCart.gif">
+			<h2 class="aniversarioEm">Aniversário de <span class="idade"></span> <span class="ano"></span> em</h2>
+			<h2>
+				<div id="countdown" class="countdown">
+     				<div class="time">
+        				<h2 id="days">00</h2>
+        				<small>dias</small>
+      				</div>
+      				<div class="time">
+        				<h2 id="hours">00</h2>
+        				<small>horas</small>
+      				</div>
+      				<div class="time">
+        				<h2 id="minutes">00</h2>
+        				<small>minutos</small>
+      				</div>
+      				<div class="time">
+        				<h2 id="seconds">00</h2>
+        				<small>segundos</small>
+      				</div>
+      			</div>
+
+      			<img src="./imagem/js.gif" alt="" id="loading" class="loading"/>
+			</h2>
+			<audio class="musicaDeFundo" controls src="./audio/birthdayPartySoundEffect.mp3"></audio>
 		</div>
 	</section>
 
@@ -26,6 +60,7 @@
 
 	<script type="text/javascript" src="./js/confetti.js"></script>
 	<script type="text/javascript" src="./js/javascript.js"></script>
+	<script type="text/javascript" src="./js/contagemRegressiva.js"></script>
 	
 </body>
 </html>
